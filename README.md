@@ -1,9 +1,3 @@
-# 📑 Synthèse Magistrale : Réalité Augmentée & Virtuelle en Éducation
-
-Ce dépôt contient une synthèse exhaustive et détaillée des concepts fondamentaux de la Réalité Augmentée (RA) et de la Réalité Virtuelle (RV) dans le domaine de l'éducation, basée sur les ressources du cours.
-
----
-
 ## 1. Fondements Historiques et Évolution
 *   **Origine :** L'aventure commence en **1968** avec **Ivan Sutherland** et son casque "L'Épée de Damoclès".
 *   **Évolution :** Passage de systèmes lourds et coûteux vers des technologies mobiles accessibles (Smartphone/Tablette) et des plateformes comme **Spark AR** ou **ZapWorks**.
@@ -53,6 +47,3 @@ Ce dépôt contient une synthèse exhaustive et détaillée des concepts fondame
 *   **Psychologie :** Risque d'isolement social ou de confusion entre réel et virtuel.
 *   **Données Privées :** La collecte de données biométriques (suivi du regard, mouvements) pose des questions de protection de la vie privée.
 *   **Équité :** Lutte contre la "fracture numérique" pour que tous les élèves aient accès aux mêmes opportunités.
-
----
-*Ce document a été généré pour servir de support de révision aux examens sur la RA/RV en éducation.*
