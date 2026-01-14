@@ -41,6 +41,12 @@ Gère l'interactivité des objets 3D :
 
 ---
 
+## 📂 Structure du projet
+- **[apk/](./apk/)** : Contient les fichiers de construction et les ressources de l'application (APK).
+- **[code_source/](./code_source/)** : Contient le code source complet du projet Unity (Scripts C#, Assets, Prefabs).
+
+---
+
 ## 📂 Structure des Assets
 Le projet utilise des modèles 3D de haute qualité avec des matériaux **URP (Universal Render Pipeline)** :
 * **Planètes** : Earth, Mars, Jupiter, Mercury, Venus, Saturn, Uranus, Neptune, Pluto.
