@@ -57,7 +57,7 @@ Le projet utilise des modèles 3D de haute qualité avec des matériaux **URP (U
 
 ## 👤 Réalisé par
 * **Anas KHAIY**
-* **Mehdi BEN-MEKKI**
+* **El mahdi BEN MEKKI**
 * **Mohamed BOUIZERGUANE**
 
 ---
