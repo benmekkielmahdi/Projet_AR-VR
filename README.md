@@ -1,49 +1,66 @@
-## 1. Fondements Historiques et Évolution
-*   **Origine :** L'aventure commence en **1968** avec **Ivan Sutherland** et son casque "L'Épée de Damoclès".
-*   **Évolution :** Passage de systèmes lourds et coûteux vers des technologies mobiles accessibles (Smartphone/Tablette) et des plateformes comme **Spark AR** ou **ZapWorks**.
-*   **Concept de base :** La RA ne remplace pas la réalité, elle l'enrichit en y injectant des données numériques (texte, 3D, vidéo).
+# 🪐 Planet AR : Exploration Immersive du Système Solaire
 
-## 2. Architecture Technique : Matériel et Logiciel
-*   **Matériel (Hardware) :**
-    *   **Capteurs :** IMU (Inertial Measurement Unit) pour le mouvement, Caméras pour la vision, GPS pour la localisation.
-    *   **Affichage :** 
-        *   *Optical See-Through :* On voit à travers un verre (ex: HoloLens).
-        *   *Video See-Through :* La caméra filme le réel et l'affiche sur l'écran (ex: Smartphone).
-*   **Logiciel (Software) :**
-    *   **SLAM (Simultaneous Localization and Mapping) :** Algorithme vital qui permet à l'appareil de comprendre sa position dans un environnement inconnu.
-    *   **Moteurs de rendu :** **Unity 3D** (prédominant) et **Unreal Engine**.
+## 🎯 Objectif Pédagogique
+Cette application de **Réalité Augmentée (RA)** propose une expérience immersive pour découvrir les corps célestes de notre système solaire. Elle permet aux utilisateurs de visualiser la Terre et d'autres planètes en 3D, tout en fournissant des données géographiques précises sur les océans majeurs de notre planète.
 
-## 3. Les Grands Modèles Pédagogiques
-*   **Modèle SAMR (Puentedura) :**
-    *   *Substitution & Augmentation :* On améliore la tâche existante (Amélioration).
-    *   *Modification & Redéfinition :* On crée de nouveaux apprentissages transformationnels.
-*   **Modèle TPACK :** Un enseignant efficace doit maîtriser l'intersection du **Contenu** (sa matière), de la **Pédagogie** et de la **Technologie**.
-*   **Modèle ADDIE :** Processus de création (Analyse, Design, Développement, Implantation, Évaluation).
-*   **Matrice TIM (Technology Integration Matrix) :** 25 cellules croisant 5 niveaux d'intégration avec 5 caractéristiques de l'environnement (ex: actif, collaboratif).
-*   **Cadre ICAP (Chi) :** Classe l'engagement cognitif : **Interactif** (le plus efficace) > Constructif > Actif > Passif.
+---
 
-## 4. Stratégies de Conception et UX
-*   **Constructivisme :** La RA/RV suit cette théorie : l'élève construit son savoir par l'action (Learning by doing).
-*   **Cycle de Kolb :** L'apprentissage expérientiel (Expérience concrète ➔ Observation ➔ Conceptualisation ➔ Expérimentation).
-*   **Charge Cognitive (Mayer) :** Importance de réduire les éléments "décoratifs" pour éviter la surcharge mentale.
-*   **UX Immersive :** Concevoir pour l'utilisateur (confort visuel, interface intuitive, pas de menus trop complexes).
+## 🚀 Fonctionnalités du Projet
 
-## 5. Inventaire des Outils : Du débutant à l'expert
-*   **Low Code / No Code (Pour tous) :**
-    *   *Adobe Aero :* Création visuelle simple.
-    *   *ZapWorks / 8th Wall :* Idéal pour le Web AR (sans application à télécharger).
-*   **High Code (Développement avancé) :**
-    *   *Unity + Vuforia :* Standard industriel pour la reconnaissance d'images et d'objets 3D.
-    *   *ARCore (Google) / ARKit (Apple) :* Pour des expériences mobiles natives de haute performance.
+### 1. Immersion RA avec Vuforia
+* **Détection Intelligente** : Utilisation d'images cibles pour ancrer les modèles 3D dans l'environnement réel de l'utilisateur.
+* **Stabilité Accrue** : L'affichage est propulsé par le moteur **Vuforia Engine**, garantissant une superposition fluide des objets virtuels.
 
-## 6. Secteurs d'Application et Études de Cas
-*   **Santé (35%) :** Simulateurs de chirurgie. Concept : "Jamais pour la première fois sur le patient" (outil cité : *MedicActiV*).
-*   **Ingénierie & Sciences :** Visualisation de circuits complexes ou de laboratoires de chimie virtuels.
-*   **Éducation de base :** Sorties scolaires virtuelles, livres "augmentés".
+### 2. Exploration Interactive des Océans
+L'application intègre un système d'information dynamique sur les 5 océans de la Terre :
+* **Océan Pacifique** : Le plus grand et le plus profond, couvrant plus d'un tiers de la surface terrestre.
+* **Océan Atlantique** : Sépare l'Europe et l'Afrique du continent américain.
+* **Océan Indien** : Réputé pour ses eaux chaudes et ses systèmes de moussons.
+* **Océan Austral** : Entoure l'Antarctique avec des courants froids et puissants.
+* **Océan Arctique** : Le plus petit et le plus froid, majoritairement recouvert de glace.
 
-## 7. Éthique, Santé et Sécurité
-*   **Cybersickness (Cinétose) :** Incohérence entre ce que l'œil voit et ce que l'oreille interne ressent (nausées, vertiges).
-*   **Fatigue Visuelle :** Problèmes de vergence-accommodation liés aux écrans proches des yeux.
-*   **Psychologie :** Risque d'isolement social ou de confusion entre réel et virtuel.
-*   **Données Privées :** La collecte de données biométriques (suivi du regard, mouvements) pose des questions de protection de la vie privée.
-*   **Équité :** Lutte contre la "fracture numérique" pour que tous les élèves aient accès aux mêmes opportunités.
+### 3. Contrôle de l'Animation et UI
+* **Rotation 360°** : Les planètes tournent de manière fluide pour une observation complète.
+* **Système de Toggle** : Un bouton UI permet de stopper ou de relancer la rotation à tout moment.
+* **Interface Intuitive** : Panneau d'information rétractable et navigation via des boutons "Précédent" / "Suivant".
+
+---
+
+## 🛠️ Détails Techniques (Scripts C#)
+
+### ✨ `OceanPanelController.cs`
+C'est le cœur logique de l'interface utilisateur :
+* **Gestion des Données** : Stockage des connaissances via les tableaux `oceanNames` et `oceanDescriptions`.
+* **Navigation** : Méthodes `NextOcean()` et `PreviousOcean()` pour boucler à travers les informations.
+* **Affichage Dynamique** : Mise à jour en temps réel des composants **TextMeshPro**.
+
+### 🔄 `animationClick.cs`
+Gère l'interactivité des objets 3D :
+* **Rotation auto-adaptative** : Utilise `transform.Rotate` sur l'axe vertical (`Vector3.up`).
+* **Vitesse Configurable** : La variable `rotationSpeed` est ajustable directement depuis l'inspecteur Unity.
+
+---
+
+## 📂 Structure des Assets
+Le projet utilise des modèles 3D de haute qualité avec des matériaux **URP (Universal Render Pipeline)** :
+* **Planètes** : Earth, Mars, Jupiter, Mercury, Venus, Saturn, Uranus, Neptune, Pluto.
+* **Corps Célestes** : Moon, Sun Sphere, Asteroids Belt, Nebula.
+* **Organisation** : Dossiers structurés pour les `Scenes`, `Scripts`, `StreamingAssets` (Vuforia) et `TextMesh Pro`.
+
+---
+
+## 🎥 Vidéo démonstrative
+*(Lien vers votre vidéo de démonstration ou description de la démo)*
+> [Ajoutez ici le lien URL de votre vidéo ou le chemin d'accès]
+
+---
+
+## 👤 Réalisé par
+* **Anas KHAIY**
+* **Mehdi BEN-MEKKI**
+* **Mohamed BOUIZERGUANE**
+
+---
+
+## 🎓 Encadré par
+* **Pr. RHAZI Ahmed-Reda**
